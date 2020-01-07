@@ -1,10 +1,506 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>DSC Website</title>
-</head>
-<body>
+<!--[if lt IE 7]>      <html lang="en" class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html lang="en" class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html lang="en" class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html lang="en" class="no-js"> <!--<![endif]-->
+    <head>
+    	<!-- meta charec set -->
+        <meta charset="utf-8">
+		<!-- Always force latest IE rendering engine or request Chrome Frame -->
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+		<!-- Page Title -->
+        <title>DSC at Stan</title>
+		<!-- Meta Description -->
+        <meta name="description" content="CS Club/DSC of CSU Stanislaus">
+        <meta name="author" content="Austin White">
+		<link rel="icon" type="image/png" href="https://cdn-images-1.medium.com/max/1200/1*EEx3f_8fGv7Nn--hhaNFfQ.png"/>
 
-</body>
+		<!-- Mobile Specific Meta -->
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+		
+		<!-- Google Font -->
+		
+		<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700,800' rel='stylesheet' type='text/css'>
+
+		<!-- CSS
+		================================================== -->
+		<!-- Fontawesome Icon font -->
+        <link rel="stylesheet" href="css/font-awesome.min.css">
+		<!-- Twitter Bootstrap css -->
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+		<!-- jquery.fancybox  -->
+        <link rel="stylesheet" href="css/jquery.fancybox.css">
+		<!-- animate -->
+        <link rel="stylesheet" href="css/animate.css">
+		<!-- Main Stylesheet -->
+        <link rel="stylesheet" href="css/main.css">
+		<!-- media-queries -->
+        <link rel="stylesheet" href="css/media-queries.css">
+
+		<!-- Modernizer Script for old Browsers -->
+        <script src="js/modernizr-2.6.2.min.js"></script>
+
+    </head>
+	
+    <body id="body">
+
+		<!-- preloader -->
+		<div id="preloader">
+			<img src="img/preloader.gif" alt="Preloader">
+		</div>
+		<!-- end preloader -->
+
+        <!-- 
+        Fixed Navigation
+        ==================================== -->
+        <header id="navigation" class="navbar-fixed-top navbar">
+            <div class="container">
+                <div class="navbar-header" style="color: black">
+                    <!-- responsive nav button -->
+					<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                        <span class="sr-only">Toggle navigation</span>
+                        <i class="fa fa-bars fa-2x"></i>
+                    </button>
+					<!-- /responsive nav button -->
+					
+					<!-- logo -->
+                    <a class="navbar-brand" href="#body">
+						<h1 id="logo">
+							<img src="https://cdn-images-1.medium.com/max/1200/1*EEx3f_8fGv7Nn--hhaNFfQ.png" alt="dsc lgo" style='height: auto; width: 10%; object-fit: contain'>
+						</h1>
+					</a>
+					<!-- /logo -->
+                </div>
+
+				<!-- main nav -->
+                <nav class="collapse navbar-collapse navbar-right" role="navigation">
+                    <ul id="nav" class="nav navbar-nav">
+                        <li class="current"><a href="#body">Home</a></li>
+                        <li><a href="#team">Team</a></li>
+                        <li><a href="#contact">Sign Up</a></li>
+                    </ul>
+                </nav>
+				<!-- /main nav -->
+				
+            </div>
+        </header>
+        <!--
+        End Fixed Navigation
+        ==================================== -->
+		
+		
+		
+        <!--
+        Home Slider
+        ==================================== -->
+		
+		<section id="slider">
+			<div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+			
+				<!-- Indicators bullet -->
+				<!-- End Indicators bullet -->				
+
+				<!-- Wrapper for slides -->
+				<div class="carousel-inner" role="listbox">
+
+					<!-- single slide -->
+					<div class="item active" style="background-image: url(https://images.pexels.com/photos/943096/pexels-photo-943096.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);">
+						<div class="carousel-caption">
+							<h2 data-wow-duration="700ms" data-wow-delay="500ms" class="wow bounceInDown animated"><span>DSC at Stan</span></h2>
+							<h3 data-wow-duration="1000ms" class="wow slideInLeft animated"><span class="color">/CSU Stan's</span> tech collective</h3>
+							<p data-wow-duration="1000ms" class="wow slideInRight animated">Est 2017</p>
+
+							<ul class="social-links text-center">
+								<li><a href="https://twitter.com/dscofcsustan" target="_blank"><i class="fa fa-twitter fa-lg"></i></a></li>
+								<li><a href="https://www.facebook.com/CSUSTANCSC/" target="_blank"><i class="fa fa-facebook fa-lg"></i></a></li>
+								<li><a href="https://instagram.com/dscofcsustan" target="_blank"><i class="fa fa-instagram fa-lg"></i></a></li>
+							</ul>
+						</div>
+					</div>
+					<!-- end single slide -->
+
+					
+				</div>
+				<!-- End Wrapper for slides -->
+				
+			</div>
+		</section>
+		
+        <!--
+        End Home SliderEnd
+        ==================================== -->
+		
+        <!--
+        Features
+        ==================================== -->
+		
+		<section id="features" class="features">
+			<div class="container">
+				<div class="row">
+				
+					<div class="sec-title text-center mb50 wow bounceInDown animated" data-wow-duration="500ms">
+						<h2>The Collective</h2>
+						<div class="devider"><i class="fa fa-heart-o fa-lg"></i></div>
+					</div>
+
+					<!-- service item -->
+					<div class="col-md-4 wow fadeInLeft" data-wow-duration="500ms" style="padding-top: 5%">
+						<div class="service-item">
+							
+							<div class="service-desc">
+								<a href="https://gdgcloudturlock.com/" class="center-align" target="_blank" >
+									<img src="https://res.cloudinary.com/deflyzun6/image/upload/v1573168203/GDG_Chapter_lockup_-_GDG_Cloud_Turlock_golgii.png"  alt="Image" class="img-fluid" style='height: auto; width: 100%; object-fit: contain;'>
+								</a>
+							</div>
+						</div>
+					</div>
+					<!-- end service item -->
+					
+					<!-- service item -->
+					<div class="col-md-4 wow fadeInUp" data-wow-duration="500ms" data-wow-delay="500ms">
+						<div class="service-item">
+
+							<div class="service-desc">
+								<a href="https://stanhacks.tech/" class="center-align" target="_blank">
+									<img src="https://res.cloudinary.com/deflyzun6/image/upload/v1575356030/shcolor2_hztobc.png"  alt="Image" class="img-fluid" style='height: auto; width: 75%; object-fit: contain;'>
+								</a>
+							</div>
+
+						</div>
+					</div>
+					<!-- end service item -->
+					
+					<!-- service item -->
+					<div class="col-md-4 wow fadeInRight" data-wow-duration="500ms"  data-wow-delay="900ms">
+						<div class="service-item">
+							<div class="service-desc">
+								<a href="#" class="center-align" target="_blank">
+									<img src="https://res.cloudinary.com/deflyzun6/image/upload/v1571697473/California_State_University_Stan_u9h0at.png"  alt="Image" class="img-fluid" style='height: auto; width: 75%; object-fit: contain;'>
+								</a>
+							</div>
+						</div>
+					</div>
+					<!-- end service item -->
+						
+				</div>
+			</div>
+		</section>
+		
+        <!--
+        End Features
+        ==================================== -->
+		
+		
+
+        <!--
+        Meet Our Team
+        ==================================== -->		
+		
+		<section id="team" class="team">
+			<div class="container">
+				<div class="row">
+		
+					<div class="sec-title text-center wow fadeInUp animated" data-wow-duration="700ms">
+						<h2>Core Team</h2>
+						<div class="devider"><i class="fa fa-heart-o fa-lg"></i></div>
+					</div>
+					
+					<div class="sec-sub-title text-center wow fadeInRight animated" data-wow-duration="500ms">
+						<p></p>
+					</div>
+
+					<!-- single member -->
+					<figure class="team-member col-md-3 col-sm-6 col-xs-12 text-center wow fadeInUp animated" data-wow-duration="500ms">
+						<div class="member-thumb">
+							<img src="https://res.cloudinary.com/deflyzun6/image/upload/v1573088821/circlepro_it52w9.png" alt="Team Member" class="img-responsive">
+						</div>
+						<h4>Austin White</h4>
+						<span>President</span>
+
+
+					</figure>
+					<!-- end single member -->
+					
+					<!-- single member -->
+					<figure class="team-member col-md-3 col-sm-6 col-xs-12 text-center wow fadeInUp animated" data-wow-duration="500ms">
+						<div class="member-thumb">
+							<img src="https://res.cloudinary.com/deflyzun6/image/upload/v1575275197/ave_fdpe7o.png" alt="Team Member" class="img-responsive">
+						</div>
+						<h4>Avelardo Valdez</h4>
+						<span>Vice President</span>
+
+
+						<div class="member-thumb">
+							<img src="https://res.cloudinary.com/deflyzun6/image/upload/v1575276105/jeffc_zcd5ps.png" alt="Team Member" class="img-responsive" style="padding-top: 10%">
+						</div>
+						<h4>Jeffrey Cosio</h4>
+						<span>Secretary</span>
+					</figure>
+					<!-- end single member -->
+					
+					<!-- single member -->
+					<figure class="team-member col-md-3 col-sm-6 col-xs-12 text-center wow fadeInUp animated" data-wow-duration="500ms">
+						<div class="member-thumb">
+							<img src="https://res.cloudinary.com/deflyzun6/image/upload/v1575275698/jc_ezqlai.png" alt="Team Member" class="img-responsive">
+						</div>
+						<h4>Jasmin Cornejo</h4>
+						<span>Event Coordinator</span>
+
+						<div class="member-thumb">
+							<img src="https://res.cloudinary.com/deflyzun6/image/upload/v1575276983/ap_ybvous.png" alt="Team Member" class="img-responsive" style="padding-top: 10%">
+						</div>
+						<h4>Autumn Pinkney</h4>
+						<span>Board Member</span>
+					</figure>
+					<!-- end single member -->
+					
+					<!-- single member -->
+					<figure class="team-member col-md-3 col-sm-6 col-xs-12 text-center wow fadeInUp animated" data-wow-duration="500ms">
+						<div class="member-thumb">
+							<img src="https://res.cloudinary.com/deflyzun6/image/upload/v1575276643/sr_copy_j85cnt.png" alt="Team Member" class="img-responsive">
+						</div>
+						<h4>Sam Ruiz</h4>
+						<span>Treasurer</span>
+					</figure>
+					<!-- end single member -->
+
+
+				</div>
+			</div>
+		</section>
+		
+        <!--
+        End Meet Our Team
+        ==================================== -->
+		
+		<!--
+        Some fun facts
+        ==================================== -->		
+		
+		<section id="facts" class="facts">
+			<div class="parallax-overlay">
+				<div class="container">
+					<div class="row number-counters">
+						
+						<div class="sec-title text-center mb50 wow rubberBand animated" data-wow-duration="1000ms">
+							<h2>Stats (Since Janurary 2019)</h2>
+							<div class="devider"><i class="fa fa-heart-o fa-lg"></i></div>
+						</div>
+						
+						<!-- first count item -->
+						<div class="col-md-3 col-sm-6 col-xs-12 text-center wow fadeInUp animated" data-wow-duration="500ms">
+							<div class="counters-item">
+								<i class="fa fa-clock-o fa-3x"></i>
+								<strong data-to="18">0</strong>
+								<!-- Set Your Number here. i,e. data-to="56" -->
+								<p>Workshops</p>
+							</div>
+						</div>
+						<div class="col-md-3 col-sm-6 col-xs-12 text-center wow fadeInUp animated" data-wow-duration="500ms" data-wow-delay="300ms">
+							<div class="counters-item">
+								<i class="fa fa-users fa-3x"></i>
+								<strong data-to="2">0</strong>
+								<!-- Set Your Number here. i,e. data-to="56" -->
+								<p>Hackathons</p>
+							</div>
+						</div>
+						<div class="col-md-3 col-sm-6 col-xs-12 text-center wow fadeInUp animated" data-wow-duration="500ms" data-wow-delay="600ms">
+							<div class="counters-item">
+								<i class="fa fa-rocket fa-3x"></i>
+								<strong data-to="30">0</strong>
+								<!-- Set Your Number here. i,e. data-to="56" -->
+								<p> Total Weekly events </p>
+							</div>
+						</div>
+						<div class="col-md-3 col-sm-6 col-xs-12 text-center wow fadeInUp animated" data-wow-duration="500ms" data-wow-delay="900ms">
+							<div class="counters-item">
+								<i class="fa fa-trophy fa-3x"></i>
+								<strong data-to="1">0</strong>
+								<!-- Set Your Number here. i,e. data-to="56" -->
+								<p>Awards Won</p>
+							</div>
+						</div>
+						<!-- end first count item -->
+				
+					</div>
+				</div>
+			</div>
+		</section>
+		
+        <!--
+        End Some fun facts
+        ==================================== -->
+		
+		
+		<!--
+        Sign up form
+        ==================================== -->		
+
+		<h1>Sign up form goes here</h1>
+
+        <!--
+        End Contact Us
+        ==================================== -->
+		
+		
+		<footer id="footer" class="footer">
+			<div class="container">
+				<div class="row">
+				
+					<div class="col-md-3 col-sm-6 col-xs-12 wow fadeInUp animated" data-wow-duration="500ms">
+						<div class="footer-single">
+							<img src="https://cdn-images-1.medium.com/max/1200/1*EEx3f_8fGv7Nn--hhaNFfQ.png" alt="dsc lgo" style='height: auto; width: 30%; object-fit: contain'>
+							<p>The CS Club was established in 2017 by Anthony Cantellano. Since then, our tech collective has grown to include DSC at Stan, StanHacks, and GDG Cloud Turlock.</p>
+
+						</div>
+					</div>
+				
+
+				
+					<div class="col-md-3 col-sm-6 col-xs-12 wow fadeInUp animated" data-wow-duration="500ms" data-wow-delay="900ms" style="padding-left: 5%">
+						<div class="footer-single" >
+							<h6>Follow us</h6>
+							<ul>
+								<li><a href="https://twitter.com/dscofcsustan" target="_blank">Twitter</a></li>
+								<li><a href="https://www.facebook.com/CSUSTANCSC/" target="_blank">Facebook</a></li>
+								<li><a href="https://instagram.com/dscofcsustan" target="_blank">Instagram</a></li>
+							</ul>
+						</div>
+					</div>
+
+					<div class="col-md-3 col-sm-6 col-xs-12 wow fadeInUp animated" data-wow-duration="500ms" data-wow-delay="900ms">
+						<div class="footer-single" >
+							<h6>Tech Collective</h6>
+							<ul>
+								<li><a href="https://gdgcloudturlock.com" target="_blank">GDG Cloud Turlock</a></li>
+								<li><a href="https://stanhacks.tech" target="_blank">StanHacks</a></li>
+								<li><a href="#" target="_blank">DSC at Stan</a></li>
+							</ul>
+						</div>
+					</div>
+
+					<div class="col-md-3 col-sm-6 col-xs-12 wow fadeInUp animated" data-wow-duration="500ms" data-wow-delay="900ms">
+						<div class="footer-single" >
+							<h6>CSU Stan Links</h6>
+							<ul>
+								<li><a href="http://cs.csustan.edu/" target="_blank">CS Department</a></li>
+								<li><a href="https://www.csustan.edu/oit" target="_blank">Office of Information Technology</a></li>
+
+
+
+							</ul>
+						</div>
+					</div>
+					
+				</div>
+				<div class="row">
+					<div class="col-md-12">
+						<p class="copyright text-center">
+							Made with love by the Stan State Tech Collective
+						</p>
+					</div>
+				</div>
+			</div>
+		</footer>
+		
+		<a href="javascript:void(0);" id="back-top"><i class="fa fa-angle-up fa-3x"></i></a>
+
+		<!-- Essential jQuery Plugins
+		================================================== -->
+		<!-- Main jQuery -->
+        <script src="js/jquery-1.11.1.min.js"></script>
+		<!-- Single Page Nav -->
+        <script src="js/jquery.singlePageNav.min.js"></script>
+		<!-- Twitter Bootstrap -->
+        <script src="js/bootstrap.min.js"></script>
+		<!-- jquery.fancybox.pack -->
+        <script src="js/jquery.fancybox.pack.js"></script>
+		<!-- jquery.mixitup.min -->
+        <script src="js/jquery.mixitup.min.js"></script>
+		<!-- jquery.parallax -->
+        <script src="js/jquery.parallax-1.1.3.js"></script>
+		<!-- jquery.countTo -->
+        <script src="js/jquery-countTo.js"></script>
+		<!-- jquery.appear -->
+        <script src="js/jquery.appear.js"></script>
+		<!-- Contact form validation -->
+		<script src="http://cdnjs.cloudflare.com/ajax/libs/jquery.form/3.32/jquery.form.js"></script>
+		<script src="http://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.11.1/jquery.validate.min.js"></script>
+		<!-- Google Map -->
+        <script type="text/javascript" src="http://maps.googleapis.com/maps/api/js?sensor=false"></script>
+		<!-- jquery easing -->
+        <script src="js/jquery.easing.min.js"></script>
+		<!-- jquery easing -->
+        <script src="js/wow.min.js"></script>
+		<script>
+			var wow = new WOW ({
+				boxClass:     'wow',      // animated element css class (default is wow)
+				animateClass: 'animated', // animation css class (default is animated)
+				offset:       120,          // distance to the element when triggering the animation (default is 0)
+				mobile:       false,       // trigger animations on mobile devices (default is true)
+				live:         true        // act on asynchronously loaded content (default is true)
+			  }
+			);
+			wow.init();
+		</script> 
+		<!-- Custom Functions -->
+        <script src="js/custom.js"></script>
+
+		<script type="text/javascript">
+			$(function(){
+				/* ========================================================================= */
+				/*	Contact Form
+				/* ========================================================================= */
+
+				$('#contact-form').validate({
+					rules: {
+						name: {
+							required: true,
+							minlength: 2
+						},
+						email: {
+							required: true,
+							email: true
+						},
+						message: {
+							required: true
+						}
+					},
+					messages: {
+						name: {
+							required: "come on, you have a name don't you?",
+							minlength: "your name must consist of at least 2 characters"
+						},
+						email: {
+							required: "no email, no message"
+						},
+						message: {
+							required: "um...yea, you have to write something to send this form.",
+							minlength: "thats all? really?"
+						}
+					},
+					submitHandler: function(form) {
+						$(form).ajaxSubmit({
+							type:"POST",
+							data: $(form).serialize(),
+							url:"process.php",
+							success: function() {
+								$('#contact-form :input').attr('disabled', 'disabled');
+								$('#contact-form').fadeTo( "slow", 0.15, function() {
+									$(this).find(':input').attr('disabled', 'disabled');
+									$(this).find('label').css('cursor','default');
+									$('#success').fadeIn();
+								});
+							},
+							error: function() {
+								$('#contact-form').fadeTo( "slow", 0.15, function() {
+									$('#error').fadeIn();
+								});
+							}
+						});
+					}
+				});
+			});
+		</script>
+    </body>
 </html>
